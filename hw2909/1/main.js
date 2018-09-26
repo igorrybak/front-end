@@ -4,10 +4,10 @@
 
 alert("Введите последовательно четыре числа:");
 
-var num1 = prompt();
-var num2 = prompt();
-var num3 = prompt();
-var num4 = prompt();
+const num1 = prompt();
+const num2 = prompt();
+const num3 = prompt();
+const num4 = prompt();
 
 function calcDistance(n1, n2, n3, n4) {
   let distance = Math.sqrt(Math.pow((n1 - n3), 2) + Math.pow((n2 - n4), 2));
