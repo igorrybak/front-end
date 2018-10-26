@@ -17,6 +17,15 @@ const redDiv = document.getElementsByClassName("red")[0] instanceof HTMLDivEleme
     document.getElementsByClassName("red")[0] : undefined;
 
 // 4) Внутри div создать p с текстом и img, в картинку добавить класс и ссылку на картинку
+const p = document.createElement("p");
+p.textContent = someText;
+
+const img = document.createElement("img");
+img.add
+p.appendChild(img);
+
+redDiv.appendChild(p);
+
 // 5) Удалить предпоследний элемент в body
 // 6) Получить кол-во узлов в body
 // 7) Удалить все узлы типа text
